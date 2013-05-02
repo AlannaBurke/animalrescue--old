@@ -1,5 +1,6 @@
 # Ignore configuration files that may contain sensitive information.
-sites/*/*settings*.php
+/*/*settings*.php
+/*/*sites*.php
 
 # Ignore paths that contain generated content.
 cache/
@@ -31,11 +32,7 @@ update.php
 xmlrpc.php
 /includes
 /misc
-/modules
+
 /profiles
 /scripts
-/themes
-afl.localhost/settings.php
-default/default.settings.php
-default/settings.php
-example.sites.php
+
