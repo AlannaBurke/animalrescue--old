@@ -35,3 +35,7 @@ xmlrpc.php
 /profiles
 /scripts
 /themes
+afl.localhost/settings.php
+default/default.settings.php
+default/settings.php
+example.sites.php
