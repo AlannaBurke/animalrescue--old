@@ -43,6 +43,14 @@ function petfinder_menu() {
     'access arguments' => array('access content'),
   );
 
+    // Shelterpet list page
+    $items['petfinder/shelterpets/petfinder_shelter_getpets'] = array(
+        'type' => MENU_CALLBACK,
+        'page callback' => 'theme',
+        'page arguments' => array('petfinder_shelter_getpets', 2),
+        'access arguments' => array('access content'),
+    );
+
   // Pet detail page
   $items['petfinder/pet/%petfinder_pet'] = array(
     'type' => MENU_CALLBACK,
@@ -79,6 +87,26 @@ function petfinder_menu() {
 /**
  * Implements menu autoload callback for %petfinder_shelter
  */
+
+function petfinder_shelter_getpets($id)
+    $id = filter_xss($id);
+    $data = petfinder_query('shelter.getpets', array('id' => $id));
+  if ($data && !empty($data['shelterpets'])) {
+      $shelterpets = array('shelterpets' => $data['shelterpets']);
+
+      // Invoke any alter hooks for the record
+      drupal_alter('petfinder_shelterpets', $shelterpets);
+
+      // Invoke any load hooks for the record; note we ignore the return as any
+      // modifications should be handled by the alter hooks above
+      module_invoke_all('petfinder_shelter_getpets', $shelterpets);
+
+      return $shelterpets;
+  }
+
+  return FALSE;
+}
+
 function petfinder_shelter_load($id) {
   $id = filter_xss($id);
   $data = petfinder_query('shelter.get', array('id' => $id));

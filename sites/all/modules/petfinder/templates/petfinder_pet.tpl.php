@@ -16,6 +16,8 @@
  */
 
 //_petfinder_dpm($variables);
+
+shelter.getPets(PA499){};
 ?>
 <div class="<?php print $classes; ?> petfinder-pet-<?php print $pet['id']; ?>">
 
