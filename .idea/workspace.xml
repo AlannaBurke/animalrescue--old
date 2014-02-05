@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4f89e7d7-1beb-4414-94bc-fc3bfdce7eaf" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/modules/custom/afl_petfinder/afl_petfinder.info" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/modules/custom/afl_petfinder/afl_petfinder.module" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/modules/custom/afl_petfinder/afl_petfinder.info" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/modules/custom/afl_petfinder/afl_petfinder.module" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/modules/custom/afl_petfinder/afl_petfinder.info" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/all/modules/custom/afl_petfinder/afl_petfinder.module" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/petfinder/petfinder.module" afterPath="$PROJECT_DIR$/sites/all/modules/petfinder/petfinder.module" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/petfinder/templates/petfinder_pet.tpl.php" afterPath="$PROJECT_DIR$/sites/all/modules/petfinder/templates/petfinder_pet.tpl.php" />
     </list>
     <ignored path="animal-friends-of-lansdowne.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,24 +29,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="afl_petfinder.info" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sites/all/modules/custom/afl_petfinder/afl_petfinder.info">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="14" selection-start="126" selection-end="126" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="150">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="afl_petfinder.module" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sites/all/modules/custom/afl_petfinder/afl_petfinder.module">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="0" selection-start="106" selection-end="106" vertical-scroll-proportion="-7.5" vertical-offset="0" max-vertical-offset="270">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="petfinder.pages.inc" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sites/all/modules/petfinder/petfinder.pages.inc">
           <provider selected="true" editor-type-id="text-editor">
@@ -58,7 +41,7 @@
       <file leaf-file-name="petfinder.module" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sites/all/modules/petfinder/petfinder.module">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="54" column="49" selection-start="1854" selection-end="1854" vertical-scroll-proportion="0.5050505" vertical-offset="450" max-vertical-offset="8445">
+            <state line="110" column="24" selection-start="3614" selection-end="3614" vertical-scroll-proportion="0.63131315" vertical-offset="1215" max-vertical-offset="8445">
               <folding />
             </state>
           </provider>
@@ -214,36 +197,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="animal-friends-of-lansdowne" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="animal-friends-of-lansdowne" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sites" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="all" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="modules" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="custom" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="afl_petfinder" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -325,20 +278,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/modules/custom/afl_petfinder/afl_petfinder.info">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="14" selection-start="126" selection-end="126" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="150">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/modules/custom/afl_petfinder/afl_petfinder.module">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="0" selection-start="106" selection-end="106" vertical-scroll-proportion="-7.5" vertical-offset="0" max-vertical-offset="270">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/modules/petfinder/petfinder.pages.inc">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="6030">
@@ -348,7 +287,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/modules/petfinder/petfinder.module">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="49" selection-start="1854" selection-end="1854" vertical-scroll-proportion="0.5050505" vertical-offset="450" max-vertical-offset="8445">
+        <state line="110" column="24" selection-start="3614" selection-end="3614" vertical-scroll-proportion="0.63131315" vertical-offset="1215" max-vertical-offset="8445">
           <folding />
         </state>
       </provider>
