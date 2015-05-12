@@ -1,4 +1,5 @@
-afl.org
+Animal Rescue
 =======
-
-AFL site
+# animalrescue
+Animal Rescue Drupal Distribution
+Sponsored by CHROMATIC
